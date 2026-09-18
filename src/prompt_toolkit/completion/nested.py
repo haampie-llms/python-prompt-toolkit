@@ -7,7 +7,7 @@ from __future__ import annotations
 from collections.abc import Iterable, Mapping
 from typing import Any
 
-from prompt_toolkit.completion import CompleteEvent, Completer, Completion
+from prompt_toolkit.completion.base import CompleteEvent, Completer, Completion
 from prompt_toolkit.completion.word_completer import WordCompleter
 from prompt_toolkit.document import Document
 

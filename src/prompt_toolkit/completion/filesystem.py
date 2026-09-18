@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 from collections.abc import Callable, Iterable
 
-from prompt_toolkit.completion import CompleteEvent, Completer, Completion
+from prompt_toolkit.completion.base import CompleteEvent, Completer, Completion
 from prompt_toolkit.document import Document
 
 __all__ = [
